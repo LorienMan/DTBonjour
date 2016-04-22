@@ -9,7 +9,9 @@ Pod::Spec.new do |spec|
   spec.license      = 'BSD'
   spec.ios.deployment_target = '5.0'
   spec.osx.deployment_target = '10.7'
+  spec.tvos.deployment_target = '9.0'
   spec.ios.frameworks   =  ["CoreFoundation", "Foundation", "UIKit"] 
   spec.osx.frameworks   =  ["CoreFoundation", "Foundation"] 
+  spec.tvos.frameworks  =  ["CoreFoundation", "Foundation"] 
   spec.requires_arc = true
 end
